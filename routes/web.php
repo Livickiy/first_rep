@@ -24,3 +24,6 @@ Route::get('pages/show/{id}', [Page::class, 'showOne'])->where('id', '[0-9]+');;
 Route::get('test/show/{param1}/{param2}', [TestController::class, 'show']);
 Route::get('employee/{id}', [Employee::class, 'showField']);
 Route::get('page/show/{a}', [Page::class,'showOne3']);
+
+
+
